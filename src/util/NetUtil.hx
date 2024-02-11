@@ -1,6 +1,5 @@
 package util;
 
-import js.Cookie;
 import models.DatabasePacket;
 import haxe.Json;
 import haxe.Http;

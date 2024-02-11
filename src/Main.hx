@@ -7,6 +7,7 @@ using StringTools;
 
 class Main {
 	static function main() {
+		Sys.print("\033[2J\033[H");
 		WelcomeScreen.start();
 	}
 }
