@@ -43,7 +43,7 @@ class LoginScreen {
 		};
 		req.onError = e -> {
 			Sys.print("\033[2J\033[H");
-			Sys.println(e);
+			Sys.println('Error: $e');
 			prompt();
 		};
 		req.request(true);
